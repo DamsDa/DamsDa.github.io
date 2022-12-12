@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Website Mini porto</title>
+</head>
+
+<body>
+    <header class="animate__animated animate__backInDown">
+        <div class="logo">
+            <img src="assets/icon/partner.png" alt="Logo" class="logo-img" />
+            <h1 class="logo-title">Driya</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="mailto:damarrasendriya@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirinstagram()">Follow ME</button>
+    </header>
+
+    <div class="container">
+        <div class="intro animate__animated animate__BackInLeft">
+            <p class="title">HELLO,DriyaDamsDa Disini</p>
+            <p class="description">PROGRAMMER,EDITING,DESGINER and GAMER</p>
+            <img src="assets/foto/damsda.jpg" alt="damsda" class="img-foto animate__animated animate__backInRight" />
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang">
+            <p class="title">Saya Adalah PROGRAMMER</p>
+            <p class="description">Pemula</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirwhatsapss()">Mari Kerja Sama</button>
+            </div>
+        </div>
+        <div class="container" id="jasa">
+            <div class="card">
+                <div class="card-item animate__animated animate__BackInLeft">
+                    <img src="assets/icon/24-hours.png" alt="icon 1" class="icon" />
+                    <p class="title">Pelayanan</p>
+                    <p class="description">24jam Jika anda Membutuhkan</p>
+                </div>
+                <div class="card-item animate__animated animate__backInUp">
+                    <img src="assets/icon/hot-deal.png" alt="icon 2" class="icon" />
+                    <p class="title">Jasa Desginer</p>
+                    <p class="description">Harga sangat terjankau</p>
+                </div>
+                <div class="card-item animate__animated animate__backInRight">
+                    <img src="assets/icon/rating.png" alt="icon 3" class="icon" />
+                    <p class="title">876 Reviews</p>
+                    <p class="description">Client sangat senang</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; DriyaDamsDa 2022</p>
+    </footer>
+
+    <script>
+        function redirinstagram() {
+            window.location.href = "https://www.instagram.com/lownly.on/";
+        }
+
+        function redirwhatsapss() {
+            window.location.href = "https://wa.me/+6289636274758";
+        }
+
+    </script>
+
+</body>
+
+</html>
